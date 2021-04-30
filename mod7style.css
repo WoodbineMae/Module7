@@ -1,0 +1,162 @@
+h1 {
+font-family: 'Unna', serif;
+  text-align: center;
+  background-color: lavender;
+
+}
+h2 {
+  text-align: left;
+  text-decoration-color: purple;
+
+}
+
+
+
+
+h6 {
+  font-size: 100px;
+}
+
+ol {
+  text-align: left;
+  font-size: 30px;
+  
+}
+p{ font-family: 'Gothic A1', sans-serif;
+
+}
+.topnav {
+  background-color:	 #ccebff;
+  overflow: hidden;
+
+}
+
+.topnav a{
+  float: left;
+  color: 	 #005c99;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#c2c2f0;
+  color: black;
+
+}
+.topnav a.active {
+  background-color: #9999e6;
+  color: black;
+}
+
+body {
+  width: 640px;
+  margin: 0 auto;
+}
+
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 640px;
+  height: 480px;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+@media  screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .column{
+    flex: 100%;
+    max-width: 100%;
+
+  }
+
+}
